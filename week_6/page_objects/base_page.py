@@ -7,7 +7,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from test_main_page import EXPLICIT_WAIT
+from tests.test_main_page import EXPLICIT_WAIT
 logger = getLogger(__name__)
 
 class BasePage:

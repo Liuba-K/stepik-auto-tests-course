@@ -4,7 +4,7 @@ from faker import Faker
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-from test_main_page import IMPLICIT_WAIT,WINDOW_SIZE
+from tests.test_main_page import IMPLICIT_WAIT,WINDOW_SIZE
 logger = getLogger(__name__)
 
 def pytest_addoption(parser):

@@ -28,9 +28,7 @@
     <list default="true" id="7f10b957-4b0f-488b-945d-80fbe058437e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../conftest.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_items.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
