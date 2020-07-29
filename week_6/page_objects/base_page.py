@@ -1,5 +1,6 @@
 from logging import getLogger
 from urlib.parse import urljoin
+
 import allure
 from selenium.common.exceptions import NoSuchElementException,TimeoutException
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -7,7 +8,7 @@ from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 
-from tests.test_main_page import EXPLICIT_WAIT
+from tests.test_main_page import EXPLICIT_WAIT, BASE_URL
 logger = getLogger(__name__)
 
 class BasePage:
@@ -30,9 +31,10 @@ class BasePage:
         with allure.step(f'open{url}'):
             self._driver.get(url)
 
-    def is_element_present(self,locator:tuple) -> bool:
-        return len(self._driver.find_element(*locator)) >0
-    def find_element(self,locator:tuple) ->WebElement:
+    def is_element_present(self, locator: tuple) -> bool:
+        return len(self._driver.find_element(*locator)) > 0
+
+    def find_element(self, locator: tuple) -> WebElement:
         try:
             element=self._driver.find_element(*locator)
             return element
