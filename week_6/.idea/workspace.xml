@@ -29,6 +29,9 @@
       <change beforePath="$PROJECT_DIR$/../conftest.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../test_items.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/test/week3_less_6-7_wait.py" />
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Liuba\stepik-auto-tests-course\week_6\tests" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.week3_less_6-7_wait">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
