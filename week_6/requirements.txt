@@ -1,5 +1,6 @@
 allure-pytest==2.8.16
 allure-python-commons==2.8.16
+Faker-4.1.1
 atomicwrites==1.4.0
 attrs==19.3.0
 colorama==0.4.3
