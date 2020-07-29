@@ -1,8 +1,8 @@
-
+import pytest
 class TestProductPage:
     @pytest.mark.need_review_user_add
     def test_user_can_add_product_to_basket(self,driver,register):
-        add_product_to_basket = self.driver.find_element(*add_product)
+        add_product_to_basket = self.driver.find_element("*add_product")
         add_product_to_basket.click
         message = browser.find_element_by_id("messages")
         assert "" in message.text
