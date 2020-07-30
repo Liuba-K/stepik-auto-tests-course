@@ -26,12 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f10b957-4b0f-488b-945d-80fbe058437e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test_items.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/gitifnore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_objects/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/login_page locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/main_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/main_page_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +66,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/test/week3_less_6-7_wait.py" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Liuba\stepik-auto-tests-course\week_6" />
       <recent name="C:\Users\Liuba\stepik-auto-tests-course\week_6\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.week3_less_6-7_wait">
+  <component name="RunManager" selected="Python tests.pytest for test_product_page.TestProductPage">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="week_6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,8 +138,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="week_6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Liuba\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-v--tb\u003dshort--language\u003den--browser\u003dchrome--alluredir\u003d./allure-results/&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_product_page.TestProductPage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="week_6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Liuba\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-v--tb\u003dshort--language\u003den--browser\u003dchrome--alluredir\u003d./allure-results/&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.TestProductPage&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_product_page.TestProductPage.test_user_can_add_product_to_basket" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="week_6" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Liuba\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-v--tb\u003dshort--language\u003den--browser\u003dchrome--alluredir\u003d./allure-results/&quot;" />
+      <option name="_new_target" value="&quot;test_product_page.TestProductPage.test_user_can_add_product_to_basket&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.conftest" />
+      <item itemvalue="Python.temporary" />
+      <item itemvalue="Python.week3_less_6-7_wait" />
+      <item itemvalue="Python tests.pytest for test_product_page.TestProductPage.test_user_can_add_product_to_basket" />
+      <item itemvalue="Python tests.pytest for test_product_page.TestProductPage" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_product_page.TestProductPage" />
+        <item itemvalue="Python tests.pytest for test_product_page.TestProductPage.test_user_can_add_product_to_basket" />
         <item itemvalue="Python.week3_less_6-7_wait" />
         <item itemvalue="Python.temporary" />
         <item itemvalue="Python.conftest" />
@@ -176,29 +235,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" width="867" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596134210189">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="867" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1596134210189" />
+    <state x="244" y="146" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596136692753">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="244" y="146" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1596136692753" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1595795954783">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1595795954783" />
-    <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1595805845353">
+    <state width="938" height="160" key="GridCell.Tab.0.bottom" timestamp="1596136242111">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595805845353" />
-    <state width="1259" height="161" key="GridCell.Tab.0.center" timestamp="1595805845353">
+    <state width="938" height="160" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596136242111" />
+    <state width="938" height="160" key="GridCell.Tab.0.center" timestamp="1596136242111">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595805845353" />
-    <state width="1259" height="161" key="GridCell.Tab.0.left" timestamp="1595805845352">
+    <state width="938" height="160" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596136242111" />
+    <state width="938" height="160" key="GridCell.Tab.0.left" timestamp="1596136242111">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595805845352" />
-    <state width="1259" height="161" key="GridCell.Tab.0.right" timestamp="1595805845353">
+    <state width="938" height="160" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596136242111" />
+    <state width="938" height="160" key="GridCell.Tab.0.right" timestamp="1596136242111">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595805845353" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1595447765347">
+    <state width="938" height="160" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596136242111" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1596133490165">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1595447765347" />
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1596133490165" />
   </component>
 </project>

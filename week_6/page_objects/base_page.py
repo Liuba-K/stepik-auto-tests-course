@@ -50,4 +50,10 @@ class BasePage:
             except TimeoutException as e:
                 raise AssertionError(e)
 
+if __name__ == "__main__":
+    from selenium import webdriver
+    driver == webdriver.Chrome
+    bp == BasePage(driver=driver)
+    bp.open()
+
 
