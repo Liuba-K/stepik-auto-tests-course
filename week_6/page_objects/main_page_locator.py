@@ -5,3 +5,6 @@ class MainPageLocators:
     search_button = (By.CSS_SELECTOR, 'input.btn')
 
     login_link = (By.ID, 'login_link')
+
+    enter_email = (By.ID, 'id_login-username')
+    enter_pwd = (By.ID, 'id_login-password')
